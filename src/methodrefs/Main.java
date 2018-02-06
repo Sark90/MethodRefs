@@ -23,7 +23,6 @@ class Main/*<T extends Number>*/ {
     }
 
     public static  void main(String[] args) {
-        // String s = "Лямбда-выражения повышают эффективность Java";
         Count/*<Double>*/ count = new Count/*<>*/();
         System.out.println("MIN: " + demo(count::getMin, GenArray.genDoubleArray(20)));
     }
